@@ -42,13 +42,13 @@ function colorTimeBlocks(){
 colorTimeBlocks();
 
 
-for (let i = 0; i < saveButtonsEl.length; i++) {
-  console.log(saveButtonsEl[i]);
-  saveButtonsEl[i].addEventListener("click", function() {
-    if (event.target.matches("saveButtonsEl")) {
-    console.log(event.target.previousSibling.value)
-  })
-}
+// for (let i = 0; i < saveButtonsEl.length; i++) {
+//   console.log(saveButtonsEl[i]);
+//   saveButtonsEl[i].addEventListener("click", function() {
+//     if (event.target.matches("saveButtonsEl")) {
+//     console.log(event.target.previousSibling.value)
+//   })
+// }
 
 // container.addEventListener("click", function (event) {
 // event.preventDefault();

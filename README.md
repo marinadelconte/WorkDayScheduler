@@ -2,16 +2,12 @@
 
 ## Description
 
-The Work Day Scheduler provides a digital calendar from 9am-5pm where the user can enter in calendar details and save to the page.
+The Work Day Scheduler provides a digital calendar from 9am-5pm where the user can enter in calendar details and save to the page. Hour time blocks that have already passed will be colored grey, the current hour will be red, and future hours will appear green. The user can enter in the information in each of the calendar blocks and save by clicking on the save button to the right of the text box.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+The Work Day Scheduler application can be accessed using the following link:
 
 ## Credits
-
+In addition to the starter code that we were provided for this assignment, my instructor also provided a brief video to help us get started. I also worked with my tutor in areas where I was getting stuck.
 
