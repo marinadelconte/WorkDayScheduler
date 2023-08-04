@@ -25,18 +25,18 @@ function colorTimeBlocks(){
 }
 colorTimeBlocks();
 
-// for (let i = 0; i < saveButtonsEl.length; i++) {
-//    saveButtonsEl[i].addEventListener("click", function() {
-//     event.preventDefault();
-//    }
-      
-// if (event.target.matches(".saveBtn")) {
-// localStorage.setItem("text", "this.parentElement.previousSibling.value");
-//   }
-// }
+for (let i = 0; i < saveButtonsEl.length; i++) {
+   saveButtonsEl[i].addEventListener("click", function() {
+    event.preventDefault();
+    let entry = document.querySelectorAll(".description").value;
+if (event.target.matches(".saveBtn")) {
+localStorage.setItem("text", "this.parentElement.previousSibling.value");
+  }
+});
+}
 
 
   
 
-//   function renderLastEntry() {
+// function renderLastEntry() {
 // let calendarEntry = localStorage.getItem(".description");
