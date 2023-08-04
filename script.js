@@ -41,25 +41,18 @@ function colorTimeBlocks(){
 }
 colorTimeBlocks();
 
+//this is where I am stuck and it is currently not working
+for (let i = 0; i < saveButtonsEl.length; i++) {
+   saveButtonsEl[i].addEventListener("click", function() {
+    event.preventDefault();
+    if (event.target.matches(".saveBtn")) {
+    localStorage.setItem(this.parentElement.previousSibling.value)
+  }
+}
 
-// for (let i = 0; i < saveButtonsEl.length; i++) {
-//   console.log(saveButtonsEl[i]);
-//   saveButtonsEl[i].addEventListener("click", function() {
-//     if (event.target.matches("saveButtonsEl")) {
-//     console.log(event.target.previousSibling.value)
-//   })
-// }
 
-// container.addEventListener("click", function (event) {
-// event.preventDefault();
-//   if (event.target.matches("saveButtonsEl")) {
   
-//       console.log(event.target.previousSibling.value)
 
-//     localStorage.setItem("textarea")
-    
-//   }
-
-  // function renderLastEntry() {
+//   function renderLastEntry() {
 // let calendarEntry = localStorage.getItem(".description");
 // }
