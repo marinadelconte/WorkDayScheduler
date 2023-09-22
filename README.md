@@ -6,7 +6,7 @@ The Work Day Scheduler provides a digital calendar from 9am-5pm where the user c
 
 ## Usage
 
-The Work Day Scheduler application can be accessed using the following link:
+The Work Day Scheduler application can be accessed using the following link: https://marinadelconte.github.io/WorkDayScheduler/
 
 ## Credits
 In addition to the starter code that we were provided for this assignment, my instructor also provided a brief video to help us get started. I also worked with my tutor in areas where I was getting stuck.
